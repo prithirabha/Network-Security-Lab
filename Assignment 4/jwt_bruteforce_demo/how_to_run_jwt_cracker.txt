@@ -1,0 +1,6 @@
+//If using Dictionary attack
+node jwt-cracker/src/index.js -t <TOKEN> -d secret_keys.txt
+
+
+/If using Brute force attack
+node jwt-cracker/src/index.js -t <TOKEN> -a abcdestrthijk --max 6
